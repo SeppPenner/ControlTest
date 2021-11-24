@@ -2,7 +2,6 @@ ControlTest
 ====================================
 
 ControlTest is an executable to check how a LED user control works.
-The executable was written and tested in .Net 5.0.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ek2uf55u4q9pcppy?svg=true)](https://ci.appveyor.com/project/SeppPenner/controltest)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/ControlTest.svg)](https://github.com/SeppPenner/ControlTest/issues)
