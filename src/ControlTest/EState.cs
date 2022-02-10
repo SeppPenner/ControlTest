@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="EState.cs" company="Hämmer Electronics">
 //   Copyright (c) All rights reserved.
 // </copyright>
@@ -7,26 +7,25 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace ControlTest
+namespace ControlTest;
+
+/// <summary>
+/// The state enumeration.
+/// </summary>
+public enum EState
 {
     /// <summary>
-    /// The state enumeration.
+    /// The unknown state.
     /// </summary>
-    public enum EState
-    {
-        /// <summary>
-        /// The unknown state.
-        /// </summary>
-        StateUnknown = 99,
+    StateUnknown = 99,
 
-        /// <summary>
-        /// The on state.
-        /// </summary>
-        StateOn = -1,
+    /// <summary>
+    /// The on state.
+    /// </summary>
+    StateOn = -1,
 
-        /// <summary>
-        /// The off state.
-        /// </summary>
-        StateOff
-    }
+    /// <summary>
+    /// The off state.
+    /// </summary>
+    StateOff
 }

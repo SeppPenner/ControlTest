@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="LEDDesigner.cs" company="Hämmer Electronics">
 //   Copyright (c) All rights reserved.
 // </copyright>
@@ -7,27 +7,23 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace ControlTest
-{
-    using System.ComponentModel.Design;
-    using System.Windows.Forms.Design;
+namespace ControlTest;
 
+/// <summary>
+/// The designer class for the LED.
+/// </summary>
+internal class LedDesigner : ControlDesigner
+{
     /// <summary>
-    /// The designer class for the LED.
+    /// Gets the designer action list collection.
     /// </summary>
-    internal class LedDesigner : ControlDesigner
+    public override DesignerActionListCollection ActionLists
     {
-        /// <summary>
-        /// Gets the designer action list collection.
-        /// </summary>
-        public override DesignerActionListCollection ActionLists
+        get
         {
-            get
-            {
-                base.ActionLists.Clear();
-                base.ActionLists.Add(new LedActionList(this.Component));
-                return base.ActionLists;
-            }
+            base.ActionLists.Clear();
+            base.ActionLists.Add(new LedActionList(this.Component));
+            return base.ActionLists;
         }
     }
 }

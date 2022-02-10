@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="CaptionPosition.cs" company="Hämmer Electronics">
 //   Copyright (c) All rights reserved.
 // </copyright>
@@ -7,21 +7,20 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace ControlTest
+namespace ControlTest;
+
+/// <summary>
+/// The caption position enumeration.
+/// </summary>
+public enum ECaptionPosition
 {
     /// <summary>
-    /// The caption position enumeration.
+    /// The left caption position.
     /// </summary>
-    public enum ECaptionPosition
-    {
-        /// <summary>
-        /// The left caption position.
-        /// </summary>
-        Left,
+    Left,
 
-        /// <summary>
-        /// The right caption position.
-        /// </summary>
-        Right
-    }
+    /// <summary>
+    /// The right caption position.
+    /// </summary>
+    Right
 }

@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="EColor.cs" company="Hämmer Electronics">
 //   Copyright (c) All rights reserved.
 // </copyright>
@@ -7,31 +7,30 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace ControlTest
+namespace ControlTest;
+
+/// <summary>
+/// The color enumeration.
+/// </summary>
+public enum EColor
 {
     /// <summary>
-    /// The color enumeration.
+    /// The red color.
     /// </summary>
-    public enum EColor
-    {
-        /// <summary>
-        /// The red color.
-        /// </summary>
-        Red,
+    Red,
 
-        /// <summary>
-        /// The green color.
-        /// </summary>
-        Green,
+    /// <summary>
+    /// The green color.
+    /// </summary>
+    Green,
 
-        /// <summary>
-        /// The yellow color.
-        /// </summary>
-        Yellow,
+    /// <summary>
+    /// The yellow color.
+    /// </summary>
+    Yellow,
 
-        /// <summary>
-        /// The blue color.
-        /// </summary>
-        Blue
-    }
+    /// <summary>
+    /// The blue color.
+    /// </summary>
+    Blue
 }

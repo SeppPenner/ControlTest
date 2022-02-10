@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="EShape.cs" company="Hämmer Electronics">
 //   Copyright (c) All rights reserved.
 // </copyright>
@@ -7,21 +7,20 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace ControlTest
+namespace ControlTest;
+
+/// <summary>
+/// The shape enumeration.
+/// </summary>
+public enum EShape
 {
     /// <summary>
-    /// The shape enumeration.
+    /// The circle shape.
     /// </summary>
-    public enum EShape
-    {
-        /// <summary>
-        /// The circle shape.
-        /// </summary>
-        Circle,
+    Circle,
 
-        /// <summary>
-        /// The rectangle shape.
-        /// </summary>
-        Rectangle
-    }
+    /// <summary>
+    /// The rectangle shape.
+    /// </summary>
+    Rectangle
 }

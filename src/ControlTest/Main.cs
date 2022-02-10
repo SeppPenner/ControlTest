@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="Main.cs" company="Hämmer Electronics">
 //   Copyright (c) All rights reserved.
 // </copyright>
@@ -7,21 +7,18 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace ControlTest
-{
-    using System.Windows.Forms;
+namespace ControlTest;
 
+/// <summary>
+/// The main form.
+/// </summary>
+public partial class Main : Form
+{
     /// <summary>
-    /// The main form.
+    /// Initializes a new instance of the <see cref="Main"/> class.
     /// </summary>
-    public partial class Main : Form
+    public Main()
     {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="Main"/> class.
-        /// </summary>
-        public Main()
-        {
-            this.InitializeComponent();
-        }
+        this.InitializeComponent();
     }
 }

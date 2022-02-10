@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="LEDGradientColor.cs" company="Hämmer Electronics">
 //   Copyright (c) All rights reserved.
 // </copyright>
@@ -7,23 +7,20 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace ControlTest
+namespace ControlTest;
+
+/// <summary>
+/// The LED gradient color.
+/// </summary>
+internal struct LedGradientColor
 {
-    using System.Drawing;
+    /// <summary>
+    /// Gets or sets the highlight color.
+    /// </summary>
+    public Color HighlightColor { get; set; }
 
     /// <summary>
-    /// The LED gradient color.
+    /// Gets or sets the background color.
     /// </summary>
-    internal struct LedGradientColor
-    {
-        /// <summary>
-        /// Gets or sets the highlight color.
-        /// </summary>
-        public Color HighlightColor { get; set; }
-
-        /// <summary>
-        /// Gets or sets the background color.
-        /// </summary>
-        public Color BackgroundColor { get; set; }
-    }
+    public Color BackgroundColor { get; set; }
 }
