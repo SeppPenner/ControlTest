@@ -1,4 +1,4 @@
-﻿namespace ControlTest
+namespace ControlTest
 {
     partial class Main
     {
@@ -44,9 +44,8 @@
 
         #endregion
 
-        private Led led1;
-        private Led led2;
-
+        //private Led led1;
+        //private Led led2;
     }
 }
 
